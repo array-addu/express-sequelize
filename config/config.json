@@ -1,17 +1,27 @@
+
 {
   "development": {
-    "dialect": "sqlite",
-    "storage": "./db.development.sqlite"
+    "username": "lscrootuser",
+    "password": "LSC0417root",
+    "database": "lsc",
+    "host": "lsc.cejz1lhp5cos.us-west-2.rds.amazonaws.com",
+    "dialect": "postgres",
+    "logging": false
   },
   "test": {
-    "dialect": "sqlite",
-    "storage": ":memory:"
+    "username": "lscrootuser",
+    "password": "LSC0417root",
+    "database": "lsc",
+    "host": "lsc.cejz1lhp5cos.us-west-2.rds.amazonaws.com",
+    "dialect": "postgres",
+    "logging": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "lscrootuser",
+    "password": "LSC0417root",
+    "database": "lsc",
+    "host": "lsc.cejz1lhp5cos.us-west-2.rds.amazonaws.com",
+    "dialect": "postgres",
+    "logging": false
   }
 }
